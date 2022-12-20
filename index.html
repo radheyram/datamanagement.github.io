@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Handling</title>
+        <style>
+            body {
+              background-image: url('lord-shiva-hd-blue-art-rf5b7sfx0nr94h4g.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;  
+              background-size: cover;
+            }
+            </style>
+    </head>
+    <body>
+        <fieldset>
+            <legend><h4 style="color:blue" align="center"><i>INFORMATION</i></h4></legend>
+            <form action="DataMangement.php" method="post" enctype="multipart/form-data">
+                <h5 style="color:red">required fields are followed by *</h5>
+                <fieldset>
+                <p>Name: * <input type="text" name="name" required ></p>
+                <fieldset>
+                <legend>Gender*</legend>
+                <p><input type="text" name='gender' >
+                </p></fieldset>
+                <p>Email*<input type='Email' name='email' id='email'required></input type>
+                <p>Pincode<input type='number' name='number' id='number'></p>
+                Mobile Number :<input type="number" name="phone" id="number" required><br>
+                Upload Photo<input type="file" name="pfile" > 
+                </fieldset>
+                <p style="color:blue" align ="center"><input type="submit" value="CLICK OK"></p>
+
+            </form>
+
+        </fieldset>
+    </body>
+</html>
